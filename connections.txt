@@ -1,0 +1,33 @@
+
+
+Dear Team,
+
+ 
+
+Please find the results of connectivity checks below,
+
+ 
+
+From: 10.18.51.139
+
+    https://*.github.com
+
+        https://github.com: OK
+
+        https://api.github.com: NO
+
+    https://*.github.io
+
+        https://github.io: NO
+
+    https://*.docker.io
+
+        https://docker.io: OK
+
+    https://*.docker.com
+
+        https://docker.com: OK
+
+        https://hub.docker.com: OK
+
+Note: Wildcards indicate all the subdomains.

@@ -1,0 +1,40 @@
+pipeline {
+    agent any
+
+    environment {
+        DISPLAY = ':99'
+    }
+
+    stages {
+        stage('Clone Repo') {
+            steps {
+                git credentialsId: 'github-token', 
+                    url: 'https://github.com/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS.git', 
+                    branch: 'kasun_dev'
+            }
+        }
+
+        stage('Prepare Workspace') {
+            steps {
+                sh '''
+                    mkdir -p ace-workspace
+                    cp -r DFCC_ACE_COLLATERALS ace-workspace/
+                '''
+            }
+        }
+
+        stage('Build BAR') {
+            steps {
+                sh '''
+                    Xvfb :99 &         # Start virtual display
+                    XVFB_PID=$!
+                    sleep 3           # Give it a moment to initialize
+
+                    /opt/ACE/ace-13.0.3.0/tools/mqsicreatebar -data ace-workspace -b ace-workspace/DFCC_ACE_COLLATERALS.bar -a DFCC_ACE_COLLATERALS
+
+                    kill $XVFB_PID    # Clean up Xvfb
+                '''
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+overrides:
+  OrderApp#OrderFlow:
+    applicationProperties:
+      Database_Host: "dev-db.example.com"
+      Database_Port: "5432"
+  OrderApp#HTTPConnector:
+    httpConnector:
+      port: 7800

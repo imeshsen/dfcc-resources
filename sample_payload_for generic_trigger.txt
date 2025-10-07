@@ -1,0 +1,214 @@
+curl -X POST  -H "Content-Type: application/json"   -d '{
+  "ref": "refs/heads/CICD_TEST",
+  "repository": {
+    "id": 975407584,
+    "node_id": "R_kgDOOiOJ4A",
+    "name": "DFCC_ACE_COLLATERELS",
+    "full_name": "n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS",
+    "private": true,
+    "owner": {
+      "name": "n-ablePrivateLimitedColomboSriLanka",
+      "email": null,
+      "login": "n-ablePrivateLimitedColomboSriLanka",
+      "id": 27853852,
+      "node_id": "MDEyOk9yZ2FuaXphdGlvbjI3ODUzODUy",
+      "avatar_url": "https://avatars.githubusercontent.com/u/27853852?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/n-ablePrivateLimitedColomboSriLanka",
+      "html_url": "https://github.com/n-ablePrivateLimitedColomboSriLanka",
+      "followers_url": "https://api.github.com/users/n-ablePrivateLimitedColomboSriLanka/followers",
+      "following_url": "https://api.github.com/users/n-ablePrivateLimitedColomboSriLanka/following{/other_user}",
+      "gists_url": "https://api.github.com/users/n-ablePrivateLimitedColomboSriLanka/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/n-ablePrivateLimitedColomboSriLanka/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/n-ablePrivateLimitedColomboSriLanka/subscriptions",
+      "organizations_url": "https://api.github.com/users/n-ablePrivateLimitedColomboSriLanka/orgs",
+      "repos_url": "https://api.github.com/users/n-ablePrivateLimitedColomboSriLanka/repos",
+      "events_url": "https://api.github.com/users/n-ablePrivateLimitedColomboSriLanka/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/n-ablePrivateLimitedColomboSriLanka/received_events",
+      "type": "Organization",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "html_url": "https://github.com/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS",
+    "description": null,
+    "fork": false,
+    "url": "https://api.github.com/repos/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS",
+    "forks_url": "https://api.github.com/repos/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS/forks",
+    "keys_url": "https://api.github.com/repos/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS/keys{/key_id}",
+    "collaborators_url": "https://api.github.com/repos/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS/collaborators{/collaborator}",
+    "teams_url": "https://api.github.com/repos/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS/teams",
+    "hooks_url": "https://api.github.com/repos/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS/hooks",
+    "issue_events_url": "https://api.github.com/repos/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS/issues/events{/number}",
+    "events_url": "https://api.github.com/repos/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS/events",
+    "assignees_url": "https://api.github.com/repos/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS/assignees{/user}",
+    "branches_url": "https://api.github.com/repos/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS/branches{/branch}",
+    "tags_url": "https://api.github.com/repos/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS/tags",
+    "blobs_url": "https://api.github.com/repos/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS/git/blobs{/sha}",
+    "git_tags_url": "https://api.github.com/repos/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS/git/tags{/sha}",
+    "git_refs_url": "https://api.github.com/repos/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS/git/refs{/sha}",
+    "trees_url": "https://api.github.com/repos/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS/git/trees{/sha}",
+    "statuses_url": "https://api.github.com/repos/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS/statuses/{sha}",
+    "languages_url": "https://api.github.com/repos/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS/languages",
+    "stargazers_url": "https://api.github.com/repos/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS/stargazers",
+    "contributors_url": "https://api.github.com/repos/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS/contributors",
+    "subscribers_url": "https://api.github.com/repos/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS/subscribers",
+    "subscription_url": "https://api.github.com/repos/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS/subscription",
+    "commits_url": "https://api.github.com/repos/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS/commits{/sha}",
+    "git_commits_url": "https://api.github.com/repos/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS/git/commits{/sha}",
+    "comments_url": "https://api.github.com/repos/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS/comments{/number}",
+    "issue_comment_url": "https://api.github.com/repos/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS/issues/comments{/number}",
+    "contents_url": "https://api.github.com/repos/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS/contents/{+path}",
+    "compare_url": "https://api.github.com/repos/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS/compare/{base}...{head}",
+    "merges_url": "https://api.github.com/repos/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS/merges",
+    "archive_url": "https://api.github.com/repos/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS/{archive_format}{/ref}",
+    "downloads_url": "https://api.github.com/repos/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS/downloads",
+    "issues_url": "https://api.github.com/repos/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS/issues{/number}",
+    "pulls_url": "https://api.github.com/repos/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS/pulls{/number}",
+    "milestones_url": "https://api.github.com/repos/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS/milestones{/number}",
+    "notifications_url": "https://api.github.com/repos/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS/notifications{?since,all,participating}",
+    "labels_url": "https://api.github.com/repos/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS/labels{/name}",
+    "releases_url": "https://api.github.com/repos/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS/releases{/id}",
+    "deployments_url": "https://api.github.com/repos/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS/deployments",
+    "created_at": 1746004049,
+    "updated_at": "2025-04-30T09:09:16Z",
+    "pushed_at": 1752732080,
+    "git_url": "git://github.com/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS.git",
+    "ssh_url": "git@github.com:n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS.git",
+    "clone_url": "https://github.com/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS.git",
+    "svn_url": "https://github.com/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS",
+    "homepage": null,
+    "size": 34,
+    "stargazers_count": 0,
+    "watchers_count": 0,
+    "language": null,
+    "has_issues": true,
+    "has_projects": true,
+    "has_downloads": true,
+    "has_wiki": true,
+    "has_pages": false,
+    "has_discussions": false,
+    "forks_count": 1,
+    "mirror_url": null,
+    "archived": false,
+    "disabled": false,
+    "open_issues_count": 0,
+    "license": null,
+    "allow_forking": true,
+    "is_template": false,
+    "web_commit_signoff_required": false,
+    "topics": [
+
+    ],
+    "visibility": "private",
+    "forks": 1,
+    "open_issues": 0,
+    "watchers": 0,
+    "default_branch": "master",
+    "stargazers": 0,
+    "master_branch": "master",
+    "organization": "n-ablePrivateLimitedColomboSriLanka",
+    "custom_properties": {
+
+    }
+  },
+  "pusher": {
+    "name": "imeshsen",
+    "email": "115970061+imeshsen@users.noreply.github.com"
+  },
+  "organization": {
+    "login": "n-ablePrivateLimitedColomboSriLanka",
+    "id": 27853852,
+    "node_id": "MDEyOk9yZ2FuaXphdGlvbjI3ODUzODUy",
+    "url": "https://api.github.com/orgs/n-ablePrivateLimitedColomboSriLanka",
+    "repos_url": "https://api.github.com/orgs/n-ablePrivateLimitedColomboSriLanka/repos",
+    "events_url": "https://api.github.com/orgs/n-ablePrivateLimitedColomboSriLanka/events",
+    "hooks_url": "https://api.github.com/orgs/n-ablePrivateLimitedColomboSriLanka/hooks",
+    "issues_url": "https://api.github.com/orgs/n-ablePrivateLimitedColomboSriLanka/issues",
+    "members_url": "https://api.github.com/orgs/n-ablePrivateLimitedColomboSriLanka/members{/member}",
+    "public_members_url": "https://api.github.com/orgs/n-ablePrivateLimitedColomboSriLanka/public_members{/member}",
+    "avatar_url": "https://avatars.githubusercontent.com/u/27853852?v=4",
+    "description": ""
+  },
+  "sender": {
+    "login": "imeshsen",
+    "id": 115970061,
+    "node_id": "U_kgDOBumQDQ",
+    "avatar_url": "https://avatars.githubusercontent.com/u/115970061?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/imeshsen",
+    "html_url": "https://github.com/imeshsen",
+    "followers_url": "https://api.github.com/users/imeshsen/followers",
+    "following_url": "https://api.github.com/users/imeshsen/following{/other_user}",
+    "gists_url": "https://api.github.com/users/imeshsen/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/imeshsen/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/imeshsen/subscriptions",
+    "organizations_url": "https://api.github.com/users/imeshsen/orgs",
+    "repos_url": "https://api.github.com/users/imeshsen/repos",
+    "events_url": "https://api.github.com/users/imeshsen/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/imeshsen/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "created": false,
+  "deleted": false,
+  "forced": false,
+  "base_ref": null,
+  "compare": "https://github.com/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS/compare/938124db379d...5c4e0c660e17",
+  "commits": [
+    {
+      "id": "5c4e0c660e1716241a32e3e4d014e444dac70a4e",
+      "tree_id": "fd5650f06e5fce34079faa798a0cccfacc6db0f8",
+      "distinct": true,
+      "message": "Update README.md",
+      "timestamp": "2025-07-17T11:31:19+05:30",
+      "url": "https://github.com/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS/commit/5c4e0c660e1716241a32e3e4d014e444dac70a4e",
+      "author": {
+        "name": "Imesh Senanayake",
+        "email": "115970061+imeshsen@users.noreply.github.com",
+        "username": "imeshsen"
+      },
+      "committer": {
+        "name": "GitHub",
+        "email": "noreply@github.com",
+        "username": "web-flow"
+      },
+      "added": [
+
+      ],
+      "removed": [
+
+      ],
+      "modified": [
+
+      ]
+    }
+  ],
+  "head_commit": {
+    "id": "5c4e0c660e1716241a32e3e4d014e444dac70a4e",
+    "tree_id": "fd5650f06e5fce34079faa798a0cccfacc6db0f8",
+    "distinct": true,
+    "message": "Update README.md",
+    "timestamp": "2025-07-17T11:31:19+05:30",
+    "url": "https://github.com/n-ablePrivateLimitedColomboSriLanka/DFCC_ACE_COLLATERELS/commit/5c4e0c660e1716241a32e3e4d014e444dac70a4e",
+    "author": {
+      "name": "Imesh Senanayake",
+      "email": "115970061+imeshsen@users.noreply.github.com",
+      "username": "imeshsen"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "username": "web-flow"
+    },
+    "added": [
+
+    ],
+    "removed": [
+
+    ],
+    "modified": [
+
+    ]
+  }
+}'  -vs "http://localhost:8080/generic-webhook-trigger/invoke?token=abc123&requestWithNumber=nbr%20123&requestWithString=a%20string"

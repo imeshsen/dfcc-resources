@@ -1,0 +1,71 @@
+
+
+For Dockerized Jenkins:
+
+registry-1.docker.io (for pulling Jenkins and other Docker images)
+bitbucket.org (for accessing Bitbucket repositories)
+updates.jenkins.io (for Jenkins core and plugin updates)
+
+
+For Standalone Jenkins:
+
+pkg.jenkins.io (for installing and updating Jenkins packages)
+bitbucket.org (for accessing Bitbucket repositories)
+updates.jenkins.io (for Jenkins core and plugin updates)
+Potentially URLs for specific plugin repositories.
+repo1.maven.org (if building Java projects with Maven)
+nodejs.org (for downloading Node.js if needed for builds)
+registry.npmjs.org (for npm packages if building Node.js projects)
+
+cdn.redhat.com
+subscription.rhsm.redhat.com
+registry.access.redhat.com
+
+----------------------------------------------------------------------------------------------------------
+
+registry-1.docker.io
+bitbucket.org
+updates.jenkins.io
+pkg.jenkins.io
+bitbucket.org
+updates.jenkins.io
+repo1.maven.org
+nodejs.org
+registry.npmjs.org
+cdn.redhat.com
+subscription.rhsm.redhat.com
+registry.access.redhat.com
+https://download.docker.com*
+get.docker.com*
+pkg.jenkins.io*
+containerd.io*
+https://hub.docker.com/r/jenkins/jenkins
+updates.jenkins.io*
+get.jenkins.io*
+mirrors.jenkins.io*
+
+
+auth.docker.io
+production.cloudflare.docker.com
+index.docker.io
+
+
+-----------------------------------------------------------------------------------------------------------
+
+from docker docs
+
+https://api.segment.io	
+https://cdn.segment.com
+https://notify.bugsnag.com
+https://sessions.bugsnag.com
+https://auth.docker.io
+https://cdn.auth0.com	
+https://login.docker.com	
+https://auth.docker.com	
+https://desktop.docker.com
+https://hub.docker.com
+https://registry-1.docker.io
+https://production.cloudflare.docker.com
+https://docker-images-prod.6aa30f8b08e16409b46e0173d6de2f56.r2.cloudflarestorage.com
+https://api.dso.docker.com
+https://api.docker.com

@@ -1,0 +1,67 @@
+ACE SERVER (XX.XX.51.171)
+
+appuser: C0l0mb0@dfcc
+mqm: C0l0mb0@dfcc
+aceadmin: C0l0mb0@dfcc
+
+
+same for SIT and UAT
+
+
+-------------------------------------------------------------------------------
+
+
+
+Development environment......................................
+Node : DEVNODE
+
+IP : 10.18.51.171
+
+PORT : 4414
+
+Integration Server: devserver1
+
+ 
+======================================================================================================
+ 
+
+SIT environment................................
+Node1: SITBR1
+
+IP: 10.18.51.37
+
+PORT: 4414
+
+Integration Server: sitserver1
+
+ 
+
+Node2: SITBR2
+
+IP: 10.18.51.38
+
+PORT: 4415
+
+Integration Server: sitserver1
+ 
+========================================================================================================
+ 
+
+UAT environment.............................
+Node1: UATBR1
+
+IP: 10.18.51.37
+
+PORT: 4430
+
+ 
+
+Node2: UATBR2
+
+IP: 10.18.51.38
+
+PORT: 4431
+
+
+env.
+/var/jenkins_home/workspace/shared-lib-test
