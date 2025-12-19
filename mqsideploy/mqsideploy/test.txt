@@ -1,0 +1,1 @@
+keytool -import -alias uatbr1 -file C:\Imesh\myStuff\DFCC\mqsideploy\mqsideploy\certs\uatbr1.cert -keystore C:\Imesh\myStuff\DFCC\mqsideploy\mqsideploy\certs\uatbr1.jks -storepass changeit -noprompt

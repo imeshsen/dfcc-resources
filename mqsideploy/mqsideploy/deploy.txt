@@ -1,0 +1,94 @@
+
+for 13.******
+
+keytool -import -alias imeshlt -file C:\certs\imesh.crt -keystore C:\certs\truststore.jks -storepass changeit -noprompt
+
+
+mqsideploy -e TEST_SERVER ^
+  -a "C:\Users\imeshs\Downloads\MyIntegrationTestProject_updated.bar" ^
+  -i "imeshs-lt.n-able.ad" ^
+  -p 7600 ^
+  --https ^
+  --cacert "C:\Users\imeshs\Desktop\truststore.jks" ^ 
+  --cacert-password changeit ^
+  --timeout-seconds 600
+  
+  
+ if a node os present
+ 
+ 
+ mqsideploy -i imeshs-lt.n-able.ad ^
+  -p 7600 ^
+  --https ^
+  --cacert "C:\certs\truststore.jks" ^
+  --cacert-password changeit ^
+  --integration-node INODE ^
+  -e TEST_SERVER ^
+  -a "C:\Users\imeshs\Downloads\MyIntegrationTestProject_updated.bar" ^
+  --timeout-seconds 600
+
+
+-----------------------------------windows------------------------------------------------
+
+docker run -v "C:/Users/imeshs/Desktop/crt/truststore.jks:/truststore.jks" -v "C:/Users/imeshs/Downloads/MyIntegrationTestProject_updated.bar:/bar.bar" spims96/ibmtools:13.0.5.0 mqsideploy -e TEST_SERVER -a /bar.bar -i host.docker.internal -p 7600 --https --cacert /truststore.jks --cacert-password changeit --timeout-seconds 600
+
+
+docker run \
+  -v "C:/Users/imeshs/Desktop/crt/truststore.jks:/truststore.jks" \
+  -v "C:/Users/imeshs/Downloads/MyIntegrationTestProject_updated.bar:/bar.bar" \
+  spims96/ibmtools:13.0.5.0 \
+  mqsideploy \
+    -e TEST_SERVER \
+    -a /bar.bar \
+    -i <YOUR_REMOTE_IP_OR_HOSTNAME> \
+    -p <YOUR_REMOTE_PORT> \
+    --https \
+    --cacert /truststore.jks \
+    --cacert-password changeit \
+    --timeout-seconds 600
+
+
+
+----------------------------linux--------------------------------
+
+
+docker run \
+  -v "//c/Users/imeshs/Downloads/MyIntegrationTestProject_updated.bar:/bar.bar" \
+  -v "//c/Users/imeshs/Desktop/crt/truststore.jks:/truststore.jks" \
+  spims96/ibmtools:13.0.5.0 \
+  mqsideploy \
+    -e TEST_SERVER \
+    -a /bar.bar \
+    -i 10.53.132.19 \
+    -p 7600 \
+    --https \
+    --cacert /truststore.jks \
+    --cacert-password changeit \
+    --timeout-seconds 600
+
+
+-----------------------------------------------
+
+Windows (CMD / PowerShell)
+
+keytool -import \
+  -alias myca \
+  -file C:\path\to\mycert.crt \
+  -keystore C:\path\to\truststore.jks \
+  -storepass changeit \
+  -noprompt
+
+
+
+
+Linux / macOS / WSL / Docker container
+
+keytool -import \
+  -alias myca \
+  -file /path/to/mycert.crt \
+  -keystore /path/to/truststore.jks \
+  -storepass changeit \
+  -noprompt
+
+
+keytool -list -keystore /path/to/truststore.jks -storepass changeit
